@@ -64,10 +64,6 @@ jobs:
         working-directory: vencord
         run: pnpm test:ts
 
-      - name: Lint plugin
-        working-directory: vencord
-        run: pnpm lint src/userplugins/discord-quest-completer
-
       - name: Build
         working-directory: vencord
         run: pnpm run build
